@@ -1,0 +1,23 @@
+.containerdif {
+  @apply pl-[2%] pt-5 pr-[2%] flex justify-center gap-8;
+}
+
+.topic {
+  @apply w-64 p-4 bg-[#1c1b1a] cursor-pointer hover:bg-[#252422] rounded-lg;
+}
+
+.topic img {
+  @apply w-11 h-10 m-auto pt-2;
+}
+
+.topic h3 {
+  @apply font-bold text-white text-center;
+}
+
+@media screen and (max-width: 1500px) {
+  .containerdif{
+    @apply w-full
+      flex
+      flex-wrap;
+  }
+}

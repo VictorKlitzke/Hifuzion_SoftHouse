@@ -1,0 +1,71 @@
+.cards {
+  @apply mb-10
+    mx-6;
+}
+
+.TextHome {
+  @apply mt-8 
+    text-2xl 
+    uppercase
+    text-center text-white
+    cursor-default;
+}
+
+.SubTextHome {
+  @apply text-center
+    pt-4
+    mb-4
+    text-base
+    uppercase
+    text-blue-700
+    font-light
+    cursor-default;
+}
+
+.containerCard {
+  @apply flex
+    justify-center
+    gap-10;
+}
+
+.contentCard {
+  @apply w-64
+    h-72
+    rounded-lg 
+    px-4
+    py-8
+    bg-[#1c1b1a]
+    hover:animate-pulse;
+}
+
+.cardImg {
+  @apply 
+    h-40
+    w-full;
+}
+
+.cardImg img {
+  @apply h-40
+    w-full   
+    mb-12;
+}
+
+.cardInfo {
+  @apply cursor-default
+    uppercase
+    text-white
+    text-center;
+}
+
+.CardInfo h4 {
+  @apply font-bold 
+    text-lg;
+}
+
+@media screen and (max-width: 1500px) {
+  .containerCard {
+    @apply w-full
+      flex
+      flex-wrap;
+  }
+}

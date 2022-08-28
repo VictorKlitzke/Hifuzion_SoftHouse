@@ -1,0 +1,105 @@
+.clear {
+  @apply clear-both;
+}
+
+.title {
+  @apply uppercase text-center text-xl;
+}
+
+.title h1 {
+  @apply text-4xl cursor-default text-white;
+}
+
+.title h2 {
+  @apply p-3 text-blue-700 cursor-default;
+}
+
+.content-contato {
+  @apply relative w-[100%] mt-12 flex justify-between items-start;
+}
+
+.form-contato {
+  padding: 60px 40px 20px;
+  @apply bg-white relative w-[calc(100%-400px)];
+}
+
+.form-contato form {
+  @apply w-[100%];
+}
+
+.form-contato .row {
+  @apply w-[100%] flex;
+}
+
+.form-contato .input50 {
+  margin: 0 10px;
+  @apply w-[100%];
+}
+
+.form-contato .input100 {
+  margin: 0 10px;
+  @apply w-[100%];
+}
+
+.form-contato .row input,
+.form-contato .row textarea {
+  margin: 10px 0;
+  @apply relative w-[100%] bg-transparent text-black outline-none resize-none font-medium p-3 border text-base;
+}
+
+.form-contato textarea {
+  @apply h-[150px];
+}
+
+.form-contato .row input[type="submit"] {
+  @apply bg-black text-white font-bold uppercase tracking-widest m-0 cursor-pointer border;
+}
+
+.contato-info {
+  padding: 60px 40px 94px;
+  @apply w-[calc(50%-250px)] h-[450px];
+}
+
+.contato-info .info-box {
+  @apply flex w-[100%] items-start mb-12;
+}
+
+.contato-info .info-box .detalhes h3,
+.contato-info .info-box .detalhes p {
+  @apply text-white;
+}
+
+.detalhes h3 {
+  @apply font-bold font-sans decoration-slice cursor-default;
+}
+
+@media (max-width: 1068px) {
+  .content-contato {
+    @apply flex-col w-[100%];
+  }
+
+  .form-contato {
+    padding: 30px 30px 20px;
+    @apply w-[100%];
+  }
+
+  .form-contato .row {
+    @apply flex-col w-[100%];
+  }
+
+  .contact-form .input50,
+  .contact-form .input100 {
+    @apply w-[100%] m-0;
+  }
+
+  .contato-info {
+    padding: 30px 30px 20px;
+    @apply text-base w-[100%] mt-5;
+  }
+}
+
+/*BOOT CSS*/
+
+.center {
+  @apply max-w-[1280px] px-[2%] mx-auto text-black;
+}

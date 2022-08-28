@@ -1,0 +1,47 @@
+.parallax {
+  @apply bg-parallax
+    min-h-[800px]
+    bg-cover
+    bg-center
+    bg-fixed;
+}
+
+.parallax .content {
+  @apply w-full
+    lg:pl-[200px]
+    pt-[300px]
+    pl-[2%]
+    pr-[2%];
+}
+
+.parallax .content h1 {
+  @apply text-4xl
+    mb-8
+    uppercase
+    cursor-default
+    font-sans
+    font-bold
+    max-w-xl
+    text-white;
+}
+
+.parallax .content p {
+  @apply text-xl
+    cursor-default
+    text-gray-300
+    max-w-3xl
+    font-semibold
+    mb-8;
+}
+
+.parallax .content button {
+  @apply text-base
+    cursor-pointer
+    hover:bg-[#1c1b1a]
+    bg-[#0e0d0d]
+    rounded-md
+    text-white
+    p-3
+    font-medium
+    mb-10;
+}

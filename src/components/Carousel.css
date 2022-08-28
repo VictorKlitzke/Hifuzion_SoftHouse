@@ -1,0 +1,38 @@
+.carousel {
+  @apply overflow-hidden
+  pt-7;
+}
+
+.inner {
+  @apply whitespace-nowrap
+    transition-transform;
+}
+
+.carousel-item {
+  @apply inline-flex
+    items-center
+    w-full
+    text-white
+    pl-[2%]
+    pr-[2%];
+}
+
+.carousel-item img {
+  @apply max-h-[750px]
+    w-full;
+}
+
+.carousel-item .content {
+  @apply absolute 
+  lg:bottom-[6px] 
+  md:bottom-[7px] 
+  w-full
+  bottom-[10px];
+}
+
+.carousel-item .content h2 {
+  @apply lg:text-lg 
+    mx-[20px]
+    uppercase
+    font-extrabold;
+}

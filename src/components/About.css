@@ -1,0 +1,22 @@
+.description {
+  @apply
+    pl-[2%]
+    pr-[2%]
+    lg:mx-auto
+    lg:max-w-[50%]
+}
+
+.description h1 {
+  @apply
+    uppercase
+    text-4xl
+    pt-5
+    text-center
+    mb-5
+    text-white
+}
+
+.description p {
+  @apply text-left
+  text-gray-300;
+}

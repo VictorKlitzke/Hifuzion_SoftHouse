@@ -5,19 +5,19 @@ import "./Card.css";
 const Card = () => {
   const DTCard = [
     {
-      image: "/imgs/cards/MEi.png",
+      image: "/imgs/cards/card1.png",
       title: "Prestadores de Serviços e MEI's",
     },
     {
-      image: "/imgs/cards/emporio.jpg",
+      image: "/imgs/cards/card2.png",
       title: "Mercados, Empórios e Mercearias",
     },
     {
-      image: "/imgs/cards/loja.png",
+      image: "/imgs/cards/card3.png",
       title: "Roupas, Calçados e Acessórios",
     },
     {
-      image: "/imgs/cards/oficina.png",
+      image: "/imgs/cards/card4.png",
       title: "Oficinas mecânicas e Assist. Técnicas",
     },
   ];

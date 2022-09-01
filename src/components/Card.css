@@ -18,7 +18,7 @@
     text-base
     uppercase
     text-blue-700
-    font-light
+    font-semibold
     cursor-default;
 }
 
@@ -32,27 +32,26 @@
   @apply w-64
     h-72
     rounded-lg 
-    px-4
-    py-8
     bg-[#1c1b1a]
     hover:animate-pulse;
 }
 
 .cardImg {
   @apply 
-    h-40
-    w-full;
+  h-[200px]
+  w-full;
 }
 
 .cardImg img {
-  @apply h-40
+  @apply h-[200px]
     w-full   
-    mb-12;
+    mb-6;
 }
 
 .cardInfo {
   @apply cursor-default
     uppercase
+    px-4
     text-white
     text-center;
 }

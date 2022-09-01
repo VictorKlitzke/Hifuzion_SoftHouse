@@ -14,31 +14,31 @@ import Back from "../../components/backTop";
 const Home = () => {
   return (
     <div className="bg-[#252422]">
-      <div className="header">
+      <div id="header">
         <Header />
       </div>
-      <div className="parallax">
+      <div id="parallax">
         <Parallax />
       </div>
-      <div className="card">
+      <div id="card">
         <Card />
       </div>
-      <div className="diference">
+      <div id="diference">
         <Diference />
       </div>
-      <div className="carousel">
+      <div id="carousel">
         <Carousel />
       </div>
-      <div className="carousel">
+      <div id="contact">
         <Contact />
       </div>
-      <div className="about">
+      <div id="about">
         <About />
       </div>
-      <div className="back">
+      <div id="back">
         <Back />
       </div>
-      <div className="footer">
+      <div id="footer">
         <Footer />
       </div>
     </div>

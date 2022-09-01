@@ -3,7 +3,7 @@
 }
 
 .title {
-  @apply uppercase text-center text-xl;
+  @apply pt-8 uppercase text-center text-xl;
 }
 
 .title h1 {
@@ -20,7 +20,7 @@
 
 .form-contato {
   padding: 60px 40px 20px;
-  @apply bg-white relative w-[calc(100%-400px)];
+  @apply bg-[#1c1b1a] relative w-[calc(100%-400px)];
 }
 
 .form-contato form {
@@ -52,7 +52,7 @@
 }
 
 .form-contato .row input[type="submit"] {
-  @apply bg-black text-white font-bold uppercase tracking-widest m-0 cursor-pointer border;
+  @apply bg-[#1c1b1a] text-white font-bold uppercase tracking-widest m-0 cursor-pointer border;
 }
 
 .contato-info {

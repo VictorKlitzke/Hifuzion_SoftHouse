@@ -32,7 +32,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="/#services"
+              href="/#card"
               className="mr-4 hover:underline md:mr-6 text-white"
             >
               Serviços
@@ -58,16 +58,17 @@ const Footer = () => {
         . Todos os direitos reservados.{" "}
       </span>
       <div className="flex text-white justify-center pt-4">
-        <AiOutlineInstagram />
+        <a href="https://www.instagram.com/hifuzionsistema/"><AiOutlineInstagram /></a>
         <div className="pl-2">
           <a href=""></a>
-          <AiOutlineWhatsApp />
+          <a href="https://api.whatsapp.com/send?phone=556599927479&text=HifuzionSoftHouse"><AiOutlineWhatsApp /></a> 
         </div>
         <div className="pl-2">
           <FiFacebook />
         </div>
         <div className="pl-2">
-          <AiOutlineYoutube />
+          <a href="https://www.youtube.com/channel/UClj29nQnmBdeHUH4bifFpVw"><AiOutlineYoutube/></a>
+          
         </div>
       </div>
     </footer>

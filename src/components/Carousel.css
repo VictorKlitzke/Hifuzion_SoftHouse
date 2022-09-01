@@ -10,16 +10,18 @@
 
 .carousel-item {
   @apply inline-flex
-    items-center
     w-full
     text-white
     pl-[2%]
-    pr-[2%];
+    pr-[2%]
+    justify-center
+    text-center;
 }
 
 .carousel-item img {
-  @apply max-h-[750px]
-    w-full;
+  @apply h-[50%]
+    w-[50%]
+    rounded-2xl;
 }
 
 .carousel-item .content {
@@ -35,4 +37,12 @@
     mx-[20px]
     uppercase
     font-extrabold;
+}
+
+@media (max-width: 1068px) {
+  .carousel-item img {
+    @apply w-[100%]
+      h-[100%] ;
+  }
+
 }

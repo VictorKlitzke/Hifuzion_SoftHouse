@@ -9,14 +9,14 @@ const Contact = () => {
       subText: "Venha fazer parte do Hifuzion",
       fone: "(65) 9992-7479",
       cidade: "Sapezal - MT",
-      Email: "HifuzionSoftHouse@gmail.com",
+      Email: "administrativo@hifuzion.com.br",
       end: "Av. Rotary Internacional, 659 - Centro",
-    }
+    },
   ];
 
   const sendWa = (e) => {
-    console.log(e)
-  }
+    console.log(e);
+  };
 
   return (
     <>
@@ -54,14 +54,6 @@ const Contact = () => {
                         type="text"
                         placeholder="Email"
                         name="email"
-                        required
-                      />
-                    </div>
-                    <div className="input50">
-                      <input
-                        type="text"
-                        placeholder="Telefone"
-                        name="phone"
                         required
                       />
                     </div>

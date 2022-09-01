@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from "react";
 
 const Header = () => {
-  const [stts, setStts] = useState(false);
-  let mobile = stts ? "show" : "hidden";
+  const [mobile, setMobile] = useState(false);
+
+  const handleMobile = () => {
+    setMobile(!mobile)
+  }
 
   useEffect(() => {
-    var Header = document.getElementById("header");
+    const Header = document.getElementById("header");
+
     window.onscroll = function () {
       if (
         document.body.scrollTop >= 10 ||
@@ -37,10 +41,7 @@ const Header = () => {
           <button
             type="button"
             className="inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg md:hidden focus:outline-none focus:ring-2"
-            onClick={() => {
-              console.log(stts);
-              setStts(!stts);
-            }}
+            onClick={() => setMobile(!mobile)}
           >
             <span className="sr-only">Open main menu</span>
             <svg
@@ -68,8 +69,11 @@ const Header = () => {
               ></path>
             </svg>
           </button>
-          <div className={"w-full md:block md:w-auto " + mobile}>
-            <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+          <div className={` w-full md:block md:w-auto `}>
+            <ul
+              id="mobile"
+              className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium"
+            >
               <li>
                 <a
                   href="/#"
@@ -80,7 +84,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="/#content"
+                  href="/#about"
                   className="block py-2 pr-4 pl-3 text-white hover:text-blue-500"
                 >
                   Sobre
@@ -88,7 +92,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="/#services"
+                  href="/#card"
                   className="block py-2 pr-4 pl-3 text-white hover:text-blue-500"
                 >
                   Serviços
@@ -96,7 +100,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="/#Contact"
+                  href="/#contact"
                   className="block py-2 pr-4 pl-3 text-white hover:text-blue-500"
                 >
                   Contato

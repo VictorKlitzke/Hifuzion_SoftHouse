@@ -4,7 +4,7 @@ import { AiOutlineArrowUp } from "react-icons/ai";
 
 const Back = () => {
   useEffect(() => {
-    var btn = document.querySelector("#button");
+    var btn = document.getElementById("button");
     btn.addEventListener("click", function () {
       window.scrollTo(0, 0);
     });
@@ -24,4 +24,5 @@ const Back = () => {
   );
 };
 
-export default Back;
+export default Back
+

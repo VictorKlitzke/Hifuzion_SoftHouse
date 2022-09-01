@@ -15,7 +15,26 @@ const Contact = () => {
   ];
 
   const sendWa = (e) => {
-    console.log(e);
+    e.preventDefault();
+
+    const el = e.target.elements;
+    const data = {
+      name: el.name.value,
+      company: el.company.value,
+      email: el.email.value,
+      message: el.message.value.replace(" ", ""),
+    };
+
+    window
+      .open(
+        `https://api.whatsapp.com/send/?phone=556599927479&text=Cliente%3A+${
+          data.name
+        }%0D%0AEmpresa%3A+${data.company}${
+          data.message != "" ? `%0D%0AMensagem%3A+${data.message}` : ""
+        }&app_absent=1`,
+        "_blank"
+      )
+      .focus();
   };
 
   return (
@@ -43,7 +62,7 @@ const Contact = () => {
                       <input
                         type="text"
                         placeholder="Empresa"
-                        name="empresa"
+                        name="company"
                         required
                       />
                     </div>
@@ -63,7 +82,6 @@ const Contact = () => {
                       <textarea
                         placeholder="Mensagem"
                         name="message"
-                        required
                       ></textarea>
                     </div>
                   </div>

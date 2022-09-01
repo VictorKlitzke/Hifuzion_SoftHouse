@@ -44,7 +44,7 @@
 .form-contato .row input,
 .form-contato .row textarea {
   margin: 10px 0;
-  @apply relative w-[100%] bg-transparent text-black outline-none resize-none font-medium p-3 border text-base;
+  @apply relative w-[100%] bg-transparent text-white outline-none resize-none font-medium p-3 border text-base;
 }
 
 .form-contato textarea {

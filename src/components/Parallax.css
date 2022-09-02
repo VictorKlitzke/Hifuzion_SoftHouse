@@ -1,6 +1,6 @@
 .parallax {
   @apply bg-parallax
-    min-h-[800px]
+    h-[100vh]
     bg-cover
     bg-center
     bg-fixed;

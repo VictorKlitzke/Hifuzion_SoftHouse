@@ -10,8 +10,8 @@
 
 .carousel-item {
   @apply inline-flex
-    h-[40vh]
-    w-[60%]
+    h-[50vh]
+    w-[40%]
     text-white
     pl-[2%]
     pr-[2%]
@@ -21,7 +21,7 @@
 
 .carousel-item img {
   @apply 
-    w-[60%]
+    w-[40%]
     rounded-2xl;
 }
 

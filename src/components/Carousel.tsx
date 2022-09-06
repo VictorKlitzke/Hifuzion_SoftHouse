@@ -14,17 +14,17 @@ const Carousel = () => {
   const DTSlide: TDTSlide = [
     {
       header: "Lp Magazine",
-      image: "/imgs/carousel/test1.jpg",
+      image: "/imgs/carousel/LP.png",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit atque.",
     },
     {
       header: "Sebben",
-      image: "/imgs/carousel/test2.jpg",
+      image: "/imgs/carousel/Sebben.png",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit atque.",
     },
     {
       header: "Balltoro",
-      image: "/imgs/carousel/test2.jpg",
+      image: "/imgs/carousel/Balltoro.png",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit atque.",
     },
   ];

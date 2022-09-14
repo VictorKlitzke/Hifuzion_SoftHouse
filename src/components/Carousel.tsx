@@ -53,7 +53,7 @@ const Carousel = () => {
 
   return (
     <>
-      <h1 className="text-3xl font-sans text-center uppercase pt-7 text-white">Empresas que confiam no nossos serviços</h1>
+      <h1 className="text-3xl font-sans text-center uppercase pt-7 text-white">Empresas que confiam em nossos serviços</h1>
         <div className="carousel">
           <div
             className="inner"

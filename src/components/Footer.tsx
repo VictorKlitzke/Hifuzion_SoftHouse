@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="sm:flex sm:items-center sm:justify-between">
         <a href="/" className="flex items-center mb-4 sm:mb-0">
           <img
-            src="/imgs/logo/HiFuzion1.svg"
+            src="/imgs/logo/HiFuzion1.png"
             className="mr-3 h-7"
             alt="Hifuzion Logo"
           />

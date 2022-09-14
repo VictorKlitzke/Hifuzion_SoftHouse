@@ -11,7 +11,7 @@
 }
 
 .title h2 {
-  @apply p-3 text-blue-700 cursor-default;
+  @apply p-3 text-gray-400 cursor-default;
 }
 
 .content-contato {

@@ -32,7 +32,7 @@ const Header = () => {
           <a href="\" className="flex">
             <img
               id="img"
-              src="/imgs/logo/Hifuzion1.svg"
+              src="/imgs/logo/Hifuzion1.png"
               className="mr-2 h-4 sm:h-9 md:h-7"
               alt="Hifuzion Logo"
             />

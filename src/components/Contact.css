@@ -57,7 +57,8 @@
 
 .contato-info {
   padding: 60px 40px 94px;
-  @apply w-[calc(50%-250px)] h-[450px];
+  @apply w-[calc(50%-250px)] h-[450px]
+  cursor-default;
 }
 
 .contato-info .info-box {

@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <>
       <nav
-        className=" fixed z-10 duration-500 transition-all w-[100%] pl-[2%] pr-[2%] px-2 sm:px-4 py-2.5"
+        className="fixed z-10 duration-500 transition-all w-[100%] pl-[2%] pr-[2%] px-2 sm:px-4 py-2.5"
         id="header"
       >
         <div className="flex flex-wrap justify-between items-center mx-auto">
